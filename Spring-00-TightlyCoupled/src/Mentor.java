@@ -2,6 +2,7 @@ public class Mentor {
 
     FullTimeMentor fullTimeMentor;
     PartTimeMentor partTimeMentor;
+    //MI
 
     public Mentor(FullTimeMentor fullTimeMentor, PartTimeMentor partTimeMentor){
         this.fullTimeMentor = fullTimeMentor;
@@ -9,7 +10,8 @@ public class Mentor {
     }
 
     public void manageAccount(){
-        fullTimeMentor.createAccount();
+        fullTimeMentor.createAccount();//MI
         partTimeMentor.createAccount();
+        //MI
     }
 }
