@@ -2,9 +2,9 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/Spring-00-LosselyCoupled/Spring-00-LosselyCoupled.iml" filepath="$PROJECT_DIR$/Spring-00-LosselyCoupled/Spring-00-LosselyCoupled.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-00-TightlyCoupled/Spring-00-TightlyCoupled.iml" filepath="$PROJECT_DIR$/Spring-00-TightlyCoupled/Spring-00-TightlyCoupled.iml" />
       <module fileurl="file://$PROJECT_DIR$/Spring-01-SpringContainer/Spring-01-SpringContainer.iml" filepath="$PROJECT_DIR$/Spring-01-SpringContainer/Spring-01-SpringContainer.iml" />
-      <module fileurl="file://$PROJECT_DIR$/Spring-00-LosselyCoupled/Sprint-00-LosselyCoupled.iml" filepath="$PROJECT_DIR$/Spring-00-LosselyCoupled/Sprint-00-LosselyCoupled.iml" />
     </modules>
   </component>
 </project>
