@@ -16,6 +16,7 @@ public class Java implements Course {
 //        System.out.println("Weekly teaching hours: " + (25 + officeHours.getHours()));
 //    }
 
+     public int x;
 
     //creating an object out of interface is more efficient, because we are using loosely coupled concept
     //and if any changes are made in java or selenium classes, it'll be taken care of ny extraSessions object

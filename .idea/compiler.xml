@@ -2,15 +2,33 @@
 <project version="4">
   <component name="CompilerConfiguration">
     <annotationProcessing>
+      <profile default="true" name="Default" enabled="true" />
       <profile name="Maven default annotation processors profile" enabled="true">
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="Spring-05-JavaAnnotations-Autowired" />
+        <module name="Spring-05-JavaAnnotations-Value" />
         <module name="Spring-01-SpringContainer" />
+        <module name="Spring-05-JavaAnnotations-Componenet" />
+        <module name="Spring-03-BeanScopeSingleton_Prototype" />
+        <module name="Spring-02-DI-SetterInjection" />
+        <module name="Spring-06-JavaCode-Configuration" />
+        <module name="Spring-04-BeanLifeCycle-Init_Destroy" />
+        <module name="Spring-05-JavaAnnotations-Qualifier" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel>
       <module name="Spring-01-SpringContainer" target="1.8" />
+      <module name="Spring-02-DI-ConstructorInjection" target="1.8" />
+      <module name="Spring-02-DI-SetterInjection" target="1.8" />
+      <module name="Spring-03-BeanScopeSingleton_Prototype" target="6" />
+      <module name="Spring-04-BeanLifeCycle-Init_Destroy" target="1.8" />
+      <module name="Spring-05-JavaAnnotations-Autowired" target="1.8" />
+      <module name="Spring-05-JavaAnnotations-Componenet" target="1.8" />
+      <module name="Spring-05-JavaAnnotations-Qualifier" target="1.8" />
+      <module name="Spring-05-JavaAnnotations-Value" target="1.8" />
+      <module name="Spring-06-JavaCode-Configuration" target="1.8" />
     </bytecodeTargetLevel>
   </component>
 </project>
