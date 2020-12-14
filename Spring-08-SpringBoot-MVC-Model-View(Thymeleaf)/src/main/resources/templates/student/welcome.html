@@ -15,5 +15,27 @@
 <h3 th:text="${birthday}"></h3>
 <!--concatination-->
 <h2 th:text="${'Hello ' + name}"></h2>
+<h3 th:text="${student.getFirstName()}"></h3>
+<h3 th:text="${student.firstName}"></h3>
+
+<!--Link-->
+
+<a th:href="@{https://cybertekschool.com}">Cybertek</a>
+
+<a th:href="@{/student/register}">Register</a>
+
+<!--Adding Parameters to Link-->
+<a th:href="@{/student/welcome(id=3)}">Link2</a>
+<a th:href="@{/student/welcome(id=${student.id})}">Link3</a>
+
+<!--Iteration-->
+<ul>
+    <li th:each="number : ${numbers}" th:text="${number}"></li>
+</ul>
+
+<!--Fragment-->
+<div th:replace="fragments/footer :: ozzy"></div>
+
+
 </body>
 </html>
